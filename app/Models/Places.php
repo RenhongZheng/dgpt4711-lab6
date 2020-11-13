@@ -10,14 +10,16 @@ class Places extends CSVModel{
     
     protected $origin = WRITEPATH . 'data/placesData.csv';
     protected $keyField = 'id';
-//    protected $table = 'data/placesData.csv';
-//    protected $primaryKey = 'id';
     protected $validationRules = [];
     
+//    protected $table = 'data/placesData.csv';
+//    protected $primaryKey = 'id';
+
     
     
-    //mock data : an array of records
-    //
+    
+//    mock data : an array of records
+//    
 //    protected $data = [
 //        '1' => [
 //            'id' => 1,
